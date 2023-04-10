@@ -34,7 +34,12 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A problem I encountered while creating this project is editing the post. I kept getting this error:
+
+Access to fetch at ‘https://antdpjzebqgqaworijnx.supabase.co/rest/v1/crewmates?id=eq.5e9bdfb9-0f92-4141-b8f7-abb6e053deea’ from origin ‘https://shimmering-stardust-c75334.netlify.app’ has been blocked by CORS policy: Method PATCH is not allowed by Access-Control-Allow-Methods in preflight response.
+
+I then realized that my chrome browser has CORS policy, and safari doesn't. So after a tramendous amount of troubleshooting,
+I decided to switch browsers and everything else worked perfectly.
 
 ## License
 
